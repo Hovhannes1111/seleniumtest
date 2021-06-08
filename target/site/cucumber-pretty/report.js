@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2155957500,
+  "duration": 3656530900,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,112 +58,31 @@ formatter.match({
   "location": "LoginStep.iNavigateToTheLoginPage()"
 });
 formatter.result({
-  "duration": 2301068100,
+  "duration": 2178916500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.iEnterTheFollowingForLogin(DataTable)"
 });
 formatter.result({
-  "duration": 174496000,
+  "duration": 296428700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.iClickLoginButton()"
 });
 formatter.result({
-  "duration": 345107800,
+  "duration": 364628900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.iShouldSeeTheUserformPage()"
 });
 formatter.result({
-  "duration": 50239400,
+  "duration": 69347400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 122900,
+  "duration": 356900,
   "status": "passed"
-});
-formatter.before({
-  "duration": 1665667000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 12,
-  "name": "Login with correct username and password to fail",
-  "description": "",
-  "id": "loginfeature;login-with-correct-username-and-password-to-fail",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 13,
-  "name": "I navigate to the login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 14,
-  "name": "I enter the following for Login",
-  "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ],
-      "line": 15
-    },
-    {
-      "cells": [
-        "admin",
-        "adminpassword"
-      ],
-      "line": 16
-    }
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "I click login button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "I should see the userform page wrongly",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStep.iNavigateToTheLoginPage()"
-});
-formatter.result({
-  "duration": 2318332800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.iEnterTheFollowingForLogin(DataTable)"
-});
-formatter.result({
-  "duration": 145717200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.iClickLoginButton()"
-});
-formatter.result({
-  "duration": 315772300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStep.iShouldSeeTheUserformPageWrongly()"
-});
-formatter.result({
-  "duration": 39000,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 72900,
-  "status": "passed"
-});
 });
