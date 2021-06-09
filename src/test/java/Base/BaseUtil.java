@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
  */
 public class BaseUtil {
 
-    public static final String URL = "https://www.google.com/";
+    public static final String URL = "www.google.com/";
 
     public WebDriver Driver;
 
