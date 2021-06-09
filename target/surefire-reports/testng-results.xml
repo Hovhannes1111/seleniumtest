@@ -2,19 +2,19 @@
 <testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T13:33:19Z" name="Surefire suite" finished-at="2021-06-09T13:33:31Z" duration-ms="12207">
+  <suite started-at="2021-06-09T17:51:30Z" name="Surefire suite" finished-at="2021-06-09T17:51:39Z" duration-ms="9544">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@36bc55de]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7e07db1f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-06-09T13:33:19Z" name="Surefire test" finished-at="2021-06-09T13:33:31Z" duration-ms="12207">
+    <test started-at="2021-06-09T17:51:30Z" name="Surefire test" finished-at="2021-06-09T17:51:39Z" duration-ms="9544">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@36bc55de]" started-at="2021-06-09T17:33:19Z" name="setUpClass" finished-at="2021-06-09T17:33:20Z" duration-ms="388" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@7e07db1f]" started-at="2021-06-09T21:51:30Z" name="setUpClass" finished-at="2021-06-09T21:51:30Z" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@36bc55de]" started-at="2021-06-09T17:33:20Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-09T17:33:31Z" duration-ms="11668" status="FAIL">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@7e07db1f]" started-at="2021-06-09T21:51:30Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-09T21:51:39Z" duration-ms="9264" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -71,7 +71,7 @@ Caused by: java.lang.AssertionError: Its not displayed expected:<true> but was:<
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@36bc55de]" started-at="2021-06-09T17:33:31Z" name="tearDownClass" finished-at="2021-06-09T17:33:31Z" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7e07db1f]" started-at="2021-06-09T21:51:39Z" name="tearDownClass" finished-at="2021-06-09T21:51:39Z" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

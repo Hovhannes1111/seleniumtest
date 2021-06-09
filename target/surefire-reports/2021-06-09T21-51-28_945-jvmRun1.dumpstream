@@ -1,0 +1,148 @@
+# Created at 2021-06-09T21:51:36.340
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-06-09T21:51:37.449
+Unexpected IOException with stream: Jun 09, 2021 9:51:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2021-06-09T21:51:37.456
+Unexpected IOException with stream: Navigate Login Page
+
+
+# Created at 2021-06-09T21:51:39.503
+Unexpected IOException with stream: Login with correct username and password to fail
+
+
+# Created at 2021-06-09T21:51:39.504
+Unexpected IOException with stream: Closing the browser : Chrome
+
+
+# Created at 2021-06-09T21:51:39.511
+Unexpected IOException: 8,1,runner.TestRunner,feature(runner.TestRunner),null,java.lang.AssertionError: Its not displayed expected:<true> but was:<false>,null,java.lang.AssertionError: Its not displayed expected:<true> but was:<false>,TestRunner>AbstractTestNGCucumberTests.feature:21 \00BB Cucumber java.lang.Asserti...,cucumber.runtime.CucumberException: java.lang.AssertionError: Its not displayed expected:<true> but was:<false>\000ACaused by: java.lang.AssertionError: Its not displayed expected:<true> but was:<false>\000A
+
+
+# Created at 2021-06-09T21:51:39.525
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.525
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2021-06-09T21:51:39.526
+Unexpected IOException with stream: [31mLogin.feature:12 [0m
+
+# Created at 2021-06-09T21:51:39.526
+Unexpected IOException with stream: # Scenario: Login with correct username and password to fail
+
+
+# Created at 2021-06-09T21:51:39.526
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.527
+Unexpected IOException with stream: 2
+
+# Created at 2021-06-09T21:51:39.527
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2021-06-09T21:51:39.528
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2021-06-09T21:51:39.528
+Unexpected IOException with stream: , 
+
+# Created at 2021-06-09T21:51:39.529
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2021-06-09T21:51:39.529
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-09T21:51:39.530
+Unexpected IOException with stream: 8
+
+# Created at 2021-06-09T21:51:39.530
+Unexpected IOException with stream:  Steps (
+
+# Created at 2021-06-09T21:51:39.531
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2021-06-09T21:51:39.531
+Unexpected IOException with stream: , 
+
+# Created at 2021-06-09T21:51:39.532
+Unexpected IOException with stream: [32m7 passed[0m
+
+# Created at 2021-06-09T21:51:39.532
+Unexpected IOException with stream: )
+
+
+# Created at 2021-06-09T21:51:39.533
+Unexpected IOException with stream: 0m
+
+# Created at 2021-06-09T21:51:39.534
+Unexpected IOException with stream: 9.202s
+
+
+# Created at 2021-06-09T21:51:39.534
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.538
+Unexpected IOException with stream: java.lang.AssertionError: Its not displayed expected:<true> but was:<false>
+
+# Created at 2021-06-09T21:51:39.539
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.539
+Unexpected IOException with stream: 	at org.junit.Assert.fail(Assert.java:88)
+
+# Created at 2021-06-09T21:51:39.540
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.541
+Unexpected IOException with stream: 	at org.junit.Assert.failNotEquals(Assert.java:834)
+
+# Created at 2021-06-09T21:51:39.542
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.542
+Unexpected IOException with stream: 	at org.junit.Assert.assertEquals(Assert.java:118)
+
+# Created at 2021-06-09T21:51:39.543
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.543
+Unexpected IOException with stream: 	at steps.LoginStep.iShouldSeeTheUserformPageWrongly(LoginStep.java:71)
+
+# Created at 2021-06-09T21:51:39.544
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.544
+Unexpected IOException with stream: 	at ?.Then I should see the userform page wrongly(Login.feature:18)
+
+# Created at 2021-06-09T21:51:39.544
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.545
+Unexpected IOException with stream: 
+
+
+# Created at 2021-06-09T21:51:39.638
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,runner.TestRunner,null,null,null
+
+

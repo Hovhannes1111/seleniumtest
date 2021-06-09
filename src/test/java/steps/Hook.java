@@ -39,11 +39,7 @@ public class Hook extends BaseUtil{
 
     @After
     public void TearDownTest(Scenario scenario) {
-        if (scenario.isFailed()) {
-            //Take screenshot logic goes here
-            System.out.println(scenario.getName());
-        }
-        System.out.println("Closing the browser : Chrome");
+        base.Driver.quit();
     }
 
 }
