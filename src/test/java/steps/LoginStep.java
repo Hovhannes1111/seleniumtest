@@ -1,23 +1,34 @@
 package steps;
 
 import Base.BaseUtil;
-import cucumber.api.java.en.Given;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 /**
  * Created by Karthik on 10/15/2016.
  */
 public class LoginStep extends BaseUtil{
 
-    private  BaseUtil base;
+    BaseUtil baseUtil;
 
-    public LoginStep(BaseUtil base) {
-        this.base = base;
+    @BeforeTest
+    public void beforeTest(){
+        baseUtil = new BaseUtil();
+        WebDriverManager.chromedriver().setup();
+        baseUtil.Driver = new ChromeDriver();
     }
 
-    @Given("^I navigate to the login page$")
-    public void iNavigateToTheLoginPage() throws Throwable {
-        System.out.println("Navigate Login Page");
-        base.Driver.get(BaseUtil.URL);
+    @Test
+    public void myTest(){
+        baseUtil.Driver.get(BaseUtil.URL);
+    }
+
+    @AfterTest
+    public void afterTest(){
+        baseUtil.Driver.quit();
     }
 
 

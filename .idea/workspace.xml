@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48c7d8d-1416-490f-bf74-4a49f1e42449" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -293,7 +295,7 @@
       <recent name="C:\Users\Karthik\IdeaProjects\CucumberBasics\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner (1)">
+  <component name="RunManager" selected="TestNG.C:/Users/Hovhannes_Grigoryan/Desktop/Cucumber/seleniumtest/src/test/java/xml/Test.xml">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -447,21 +449,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="runnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBasics" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="runnerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
@@ -496,6 +483,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Hovhannes_Grigoryan/Desktop/Cucumber/seleniumtest/src/test/java/xml/Test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBasics" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/xml/Test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginStep.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBasics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="steps.LoginStep" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CucumberBasics" />
       <extension name="coverage">
@@ -515,34 +534,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CucumberBasics" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
@@ -554,19 +545,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.runnerTest" />
       <item itemvalue="JUnit.TestRunner" />
-      <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="TestNG.TestRunner (1)" />
       <item itemvalue="Cucumber Java.Feature: Login" />
+      <item itemvalue="TestNG.LoginStep.myTest" />
+      <item itemvalue="TestNG.C:/Users/Hovhannes_Grigoryan/Desktop/Cucumber/seleniumtest/src/test/java/xml/Test.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Hovhannes_Grigoryan/Desktop/Cucumber/seleniumtest/src/test/java/xml/Test.xml" />
+        <item itemvalue="TestNG.LoginStep.myTest" />
         <item itemvalue="TestNG.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="JUnit.runnerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -686,17 +677,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/steps/LoginStep.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
